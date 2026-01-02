@@ -1,0 +1,20 @@
+{
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "Secure Authentication & Authorization Service",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "author": "Raunak Jain",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "dotenv": "^17.2.3",
+        "express": "^4.22.1",
+        "express-rate-limit": "^8.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "pg": "^8.16.3",
+        "uuid": "^13.0.0"
+    }
+}
